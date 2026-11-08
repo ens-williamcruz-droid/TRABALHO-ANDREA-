@@ -157,3 +157,21 @@ section {
     padding: 14px 16px;
   }
 }
+/* ===== Efeitos de interação ===== */
+.item {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.botao {
+  transition: background 0.2s, color 0.2s;
+}
+
+.botao:hover {
+  background: #f3f7f2;
+  color: #143d27;
+}
